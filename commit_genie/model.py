@@ -15,7 +15,7 @@ def generate_commit_message_local(
     """
     
     if not api_key:
-        return {"title": "Error", "body": ["API Key is missing. Run 'ai-commit config --key YOUR_KEY'"]}
+        return {"title": "Error", "body": ["API Key is missing. Run 'commit-genie config --key YOUR_KEY'"]}
 
     # -------------------------------------------------------
     # 1. Restore the detailed definitions (from your original code)

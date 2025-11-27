@@ -4,9 +4,9 @@ import os
 import sys
 
 # Ensure these imports match your folder structure
-from ai_commit.git_reader import get_staged_diff
-from ai_commit.model import generate_commit_message_local
-from ai_commit.config import load_config, save_config
+from commit_genie.git_reader import get_staged_diff
+from commit_genie.model import generate_commit_message_local
+from commit_genie.config import load_config, save_config
 
 
 @click.group()

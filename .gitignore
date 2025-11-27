@@ -12,4 +12,4 @@ dist/
 .idea/
 
 # Config (just in case)
-.ai-commit-config.json
+.commit-genie-config.json

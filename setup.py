@@ -1,18 +1,17 @@
 from setuptools import setup, find_packages
 
-# Read your README for the long description on PyPI
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ai-commit",  # ⚠️ Check pypi.org to make sure "ai-commit" isn't taken!
-    version="1.0.0",
+    name="commit-genie",  
+    version="1.0.1",
     author="Shivam Bhosle",
     author_email="shivambhosle270903@gmail.com",
     description="A CLI tool that writes your git commit messages.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/007-shivam/ai-commit",
+    url="https://github.com/007-shivam/commit-genie",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -22,7 +21,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "ai-commit=ai_commit.cli:cli",
+            "commit-genie=commit_genie.cli:cli",
         ],
     },
     classifiers=[

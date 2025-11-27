@@ -1,7 +1,7 @@
 import os
 import json
 
-CONFIG_PATH = os.path.expanduser("~/.ai-commit-config.json")
+CONFIG_PATH = os.path.expanduser("~/.commit-genie-config.json")
 
 DEFAULT_CONFIG = {
     "model": "gemini-2.5-flash",
@@ -23,6 +23,6 @@ def load_config():
         return DEFAULT_CONFIG.copy()
 
 def save_config(config_dict):
-    """Write config to ~/.ai-commit-config.json."""
+    """Write config to ~/.commit-genie-config.json."""
     with open(CONFIG_PATH, "w") as f:
         json.dump(config_dict, f, indent=2)

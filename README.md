@@ -1,10 +1,10 @@
-# 🤖 AI Commit: The CLI That Writes Your Commits
+# 🤖 Commit Genie: The CLI That Writes Your Commits
 
 > **Stop writing "wip", "fix", or "updates" today.** Let AI analyze your code and write the perfect commit message while you sip your coffee.
 
-![PyPI - Version](https://img.shields.io/pypi/v/ai-commit-cli) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![AI](https://img.shields.io/badge/Powered%20By-Gemini%20Flash-orange) ![License](https://img.shields.io/badge/License-MIT-green)
+![PyPI - Version](https://img.shields.io/pypi/v/commit-genie) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![AI](https://img.shields.io/badge/Powered%20By-Gemini%20Flash-orange) ![License](https://img.shields.io/badge/License-MIT-green)
 
-<!-- ![PyPI - Downloads](https://img.shields.io/pypi/dm/ai-commit)  -->
+<!-- ![PyPI - Downloads](https://img.shields.io/pypi/dm/commit-genie)  -->
 
 ---
 
@@ -31,19 +31,19 @@ You just spent 3 hours debugging a race condition. The last thing you want to do
 
 1.  **Clone the repo:**
     ```bash
-    pip install ai-commit
+    pip install commit-genie
     ```
     > Use pip3 if you are on Mac/Linux
 
     >💡 Tip: To update to the latest version later, just run: 
 
-    ```pip install --upgrade ai-commit-cli ```
+    ```pip install --upgrade commit-genie-cli ```
 
 3.  **Configure your Key:**
     ```bash
-    ai-commit config --key "YOUR_GEMINI_API_KEY"
+    commit-genie config --key "YOUR_GEMINI_API_KEY"
     ```
-    > **💡 Tip:** If you skip step 3, don't worry! The first time you run `ai-commit commit`, the tool will detect the missing key and ask you to paste it securely.
+    > **💡 Tip:** If you skip step 3, don't worry! The first time you run `commit-genie commit`, the tool will detect the missing key and ask you to paste it securely.
 
 ---
 
@@ -54,7 +54,7 @@ Stage your files and let the AI do the rest.
 
 ```bash
 git add .
-ai-commit commit
+commit-genie commit
 ```
 The tool will generate a message, show you a preview, and ask for confirmation before committing.
 
@@ -74,7 +74,7 @@ Don't like the default output? Override everything on the fly.
 
 ## 🎭 The "Persona" Feature
 
-This is where the magic happens. You can configure **ai-commit** to sound exactly how you need it to.
+This is where the magic happens. You can configure **commit-genie** to sound exactly how you need it to.
 
 
 ### 👨‍💻 Tone: Developer (Default)
@@ -92,17 +92,17 @@ Focuses on user impact, business value, and high-level summaries.
 **Try it:**
 
     ```bash
-    ai-commit commit --tone manager
+    commit-genie commit --tone manager
     ```
 
 ---
 
 ## ⚙️ Configuration
-Set it and forget it. Your preferences are saved globally in ~/.ai-commit-config.json.
+Set it and forget it. Your preferences are saved globally in ~/.commit-genie-config.json.
 
-Set your favorite model: ``` ai-commit config --model gemini-2.5 ```
+Set your favorite model: ``` commit-genie config --model gemini-2.5 ```
 
-Set your default style: ``` ai-commit config --style conventional ```
+Set your default style: ``` commit-genie config --style conventional ```
 
 
 ---
@@ -129,7 +129,7 @@ Got a better prompt? A new persona?
 
 2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
 
-3. Commit your Changes (ai-commit commit) — See what I did there?
+3. Commit your Changes (commit-genie commit) — See what I did there?
 
 4. Push to the Branch (git push origin feature/AmazingFeature)
 
@@ -147,7 +147,7 @@ We are just getting started! Here is what we are planning for v2.0:
 *   **🖥️ GUI Mode:** A simple desktop app for users who prefer clicking over typing commands.
 *   **🔍 pre-commit Hook Integration:** Official support for the [pre-commit](https://pre-commit.com/) framework to run checks automatically.
 
-Have an idea? Open an [Issue](https://github.com/007-shivam/ai-commit/issues) and let's discuss it!
+Have an idea? Open an [Issue](https://github.com/007-shivam/commit-genie/issues) and let's discuss it!
 
 ---
 
