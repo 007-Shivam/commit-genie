@@ -2,9 +2,7 @@
 
 > **Stop writing "wip", "fix", or "updates" today.** Let AI analyze your code and write the perfect commit message while you sip your coffee.
 
-![PyPI - Version](https://img.shields.io/pypi/v/commit-genie) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![AI](https://img.shields.io/badge/Powered%20By-Gemini%20Flash-orange) ![License](https://img.shields.io/badge/License-MIT-green)
-
-<!-- ![PyPI - Downloads](https://img.shields.io/pypi/dm/commit-genie)  -->
+![PyPI - Downloads](https://img.shields.io/pypi/dm/commit-genie) ![PyPI - Version](https://img.shields.io/pypi/v/commit-genie) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![AI](https://img.shields.io/badge/Powered%20By-Gemini%20Flash-orange) ![License](https://img.shields.io/badge/License-MIT-green) 
 
 ---
 
