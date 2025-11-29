@@ -2,7 +2,8 @@
 
 > **Stop writing "wip", "fix", or "updates" today.** Let AI analyze your code and write the perfect commit message while you sip your coffee.
 
-![PyPI - Downloads](https://img.shields.io/pypi/dm/commit-genie) ![PyPI - Version](https://img.shields.io/pypi/v/commit-genie) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![AI](https://img.shields.io/badge/Powered%20By-Gemini%20Flash-orange) ![License](https://img.shields.io/badge/License-MIT-green) 
+![PyPI - Downloads](https://img.shields.io/pypi/dm/commit-genie) ![PyPI - Version](https://img.shields.io/pypi/v/commit-genie) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![AI](https://img.shields.io/badge/Powered%20By-Gemini%20Flash-orange) ![License](https://img.shields.io/badge/License-MIT-green)
+
 
 ---
 
@@ -27,17 +28,18 @@ You just spent 3 hours debugging a race condition. The last thing you want to do
 
 ### Get Started
 
-1.  **Clone the repo:**
+1.  **Install:**
     ```bash
     pip install commit-genie
     ```
-    > Use pip3 if you are on Mac/Linux
+    > Or use pipx.  Use pip3 if you are on Mac/Linux
 
     >💡 Tip: To update to the latest version later, just run: 
 
-    ```pip install --upgrade commit-genie-cli ```
+    ```pip install --upgrade commit-genie ```
 
-3.  **Configure your Key:**
+
+2.  **Configure your Key:**
     ```bash
     commit-genie config --key "YOUR_GEMINI_API_KEY"
     ```
@@ -89,9 +91,9 @@ Focuses on user impact, business value, and high-level summaries.
 
 **Try it:**
 
-    ```bash
+    
     commit-genie commit --tone manager
-    ```
+    
 
 ---
 
@@ -111,7 +113,7 @@ If you want to hack on the source code, here is how the magic is organized:
 ```bash
 .
 ├── setup.py             # The installer
-└── ai_commit/           # The brains
+└── commit_genie/           # The brains
     ├── cli.py           # Command line interface (Click)
     ├── model.py         # The "Mega Prompt" & Logic
     ├── git_reader.py    # Reads your staged diffs

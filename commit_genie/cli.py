@@ -3,6 +3,10 @@ import subprocess
 import os
 import sys
 
+# 🔇 SILENCE GOOGLE LOGS
+os.environ["GRPC_VERBOSITY"] = "ERROR"
+os.environ["GLOG_minloglevel"] = "3"
+
 # Ensure these imports match your folder structure
 from commit_genie.git_reader import get_staged_diff
 from commit_genie.model import generate_commit_message_local
@@ -10,6 +14,7 @@ from commit_genie.config import load_config, save_config
 
 
 @click.group()
+@click.version_option()
 def cli():
     """AI Commit - Generate commit messages using."""
     pass
