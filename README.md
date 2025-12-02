@@ -141,11 +141,16 @@ Got a better prompt? A new persona?
 
 We are just getting started! Here is what we are planning for v2.0:
 
-*   **🧠 Multi-LLM Support:** Add support for OpenAI (GPT-4), Anthropic (Claude), and local Ollama models for privacy-focused users.
-*   **📜 Auto-Changelog:** Automatically generate a `CHANGELOG.md` file based on your commit history.
-*   **🌍 Multi-Language:** Generate commit messages in languages other than English (Spanish, French, Chinese, etc.).
-*   **🖥️ GUI Mode:** A simple desktop app for users who prefer clicking over typing commands.
-*   **🔍 pre-commit Hook Integration:** Official support for the [pre-commit](https://pre-commit.com/) framework to run checks automatically.
+- [ ] **🔍 pre-commit Hook Integration** (Target: v1.1.0)
+    - *Official support for the [pre-commit](https://pre-commit.com/) framework to run checks automatically.*
+- [ ] **🧠 Multi-LLM Support** (Target: v1.2.0)
+    - *Add support for OpenAI (GPT-4), Anthropic (Claude), and local Ollama models for privacy-focused users.*
+- [ ] **📜 Auto-Changelog** (Target: v1.3.0)
+    - *Automatically generate a `CHANGELOG.md` file based on your commit history.*
+- [ ] **🌍 Multi-Language Support** (Target: v1.4.0)
+    - *Generate commit messages in languages other than English (Spanish, French, Hindi, Chinese, etc.).*
+- [ ] **🖥️ GUI Mode** (Target: v2.0.0)
+    - *A simple desktop app for users who prefer clicking over typing commands.*
 
 Have an idea? Open an [Issue](https://github.com/007-shivam/commit-genie/issues) and let's discuss it!
 
