@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="commit-genie",  
-    version="1.0.2",
+    version="1.0.4",
     author="Shivam Bhosle",
     author_email="shivambhosle270903@gmail.com",
     description="A CLI tool that writes your git commit messages.",

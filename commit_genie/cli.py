@@ -4,8 +4,9 @@ import os
 import sys
 
 # 🔇 SILENCE GOOGLE LOGS
-os.environ["GRPC_VERBOSITY"] = "ERROR"
-os.environ["GLOG_minloglevel"] = "3"
+os.environ["GRPC_VERBOSITY"] = "NONE"  
+os.environ["GLOG_minloglevel"] = "3" 
+os.environ["ABSL_LOG_LEVEL"] = "fatal"
 
 # Ensure these imports match your folder structure
 from commit_genie.git_reader import get_staged_diff
